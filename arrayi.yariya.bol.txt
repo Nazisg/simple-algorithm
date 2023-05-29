@@ -1,0 +1,8 @@
+let array = [1, 2, 3, 4, 5, 6, 7, 8]
+let orta = array.length / 2
+
+ilk = array.slice(0, orta)
+ikinci = array.slice(orta)
+
+console.log(ilk)
+console.log(ikinci)
