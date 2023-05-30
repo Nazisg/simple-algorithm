@@ -1,4 +1,14 @@
+//----------1-------------
 
 let soz = "javascript"
 let sil = soz.slice(1,-1)
+console.log(sil)
+
+//-----------2------------
+
+let soz = "javascript"
+let sil = ""
+for(i = 1; i < soz.length-1; i++){
+    sil = sil + soz.charAt(i)
+}
 console.log(sil)
