@@ -1,4 +1,4 @@
-let cumle = "C�ml?d?ki s�zl?rin ilk h?rfini b�y�k yazan program yazin"
+let cumle = "Cümlədəki sözlərin ilk hərfini böyük yazan proqram yazin."
 
 let arr = cumle.split(' ')
 for(i = 0;i < arr.length; i++ ){
