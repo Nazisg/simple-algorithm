@@ -1,0 +1,10 @@
+function palindrom(str){
+    str = str.toLowerCase()
+    data = str.split('').reverse().join('')
+    if(str == data){
+        console.log("palindromdur")
+    }else{
+        console.log("palindrom deyil")
+    }
+}
+palindrom("Amma")
