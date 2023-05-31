@@ -1,0 +1,8 @@
+let cumle = "Cüml?d?ki sözl?rin ilk h?rfini böyük yazan program yazin"
+
+let arr = cumle.split(' ')
+for(i = 0;i < arr.length; i++ ){
+    arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1)
+}
+let cumle2 = arr.join(' ')
+    console.log(cumle2)
