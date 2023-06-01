@@ -20,6 +20,6 @@ function sayan(soz){
             }
         }
     }
-    console.log("Sözd? " + say1 + " samit v? " + say2 + " sait var.")
+    console.log("Sözdə " + say1 + " samit və " + say2 + " sait var.")
 }
 sayan("Nəzrin")
