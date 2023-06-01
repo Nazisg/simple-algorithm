@@ -1,5 +1,5 @@
 let samit=['b','c','d','f','g','j','l','h','m','n','r','t','y','p','s','k','x','v','z'];
-let sait=['a', '?', 'ö', 'e', 'u', 'i', 'o', 'ü'];
+let sait=['a', 'É™', 'Ã¶', 'e', 'u', 'i', 'o', 'Ã¼'];
 let say1 = 0
 let say2 = 0
 
@@ -20,6 +20,6 @@ function sayan(soz){
             }
         }
     }
-    console.log("Sözd? " + say1 + " samit v? " + say2 + " sait var.")
+    console.log("SÃ¶zd? " + say1 + " samit v? " + say2 + " sait var.")
 }
-sayan("N?zrin")
+sayan("NÉ™zrin")
