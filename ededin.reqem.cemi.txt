@@ -1,0 +1,6 @@
+let eded = "1234"
+let cem = 0
+for(i = 0; i < eded.length; i++){
+ cem += parseInt(eded[i])
+}
+console.log(cem)
