@@ -1,0 +1,9 @@
+let ededler = [23,45,56,78,90,54,67,83,71]
+function index(eded){
+    for(i = 0; i < ededler.length; i++){
+        if(eded == ededler[i]){
+            console.log(eded + " ededinin siradaki indexsi " + i)
+        }
+    }
+}
+index(78)
