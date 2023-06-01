@@ -1,0 +1,25 @@
+let samit=['b','c','d','f','g','j','l','h','m','n','r','t','y','p','s','k','x','v','z'];
+let sait=['a', '?', 'ö', 'e', 'u', 'i', 'o', 'ü'];
+let say1 = 0
+let say2 = 0
+
+function sayan(soz){
+    soz = soz.toLowerCase().split("")
+
+    for(i = 0; i < soz.length; i++){
+        for(j = 0; j < samit.length; j++){
+            if(soz[i] == samit[j]){
+                say1 = say1 +1
+            }
+        }
+    }
+    for(i = 0; i < soz.length; i++){
+        for(k = 0; k < sait.length; k++){
+            if(soz[i] == sait[k]){
+                say2 = say2 + 1
+            }
+        }
+    }
+    console.log("Sözd? " + say1 + " samit v? " + say2 + " sait var.")
+}
+sayan("N?zrin")
