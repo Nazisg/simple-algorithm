@@ -9,7 +9,7 @@ function sayan(soz){
     for(i = 0; i < soz.length; i++){
         for(j = 0; j < samit.length; j++){
             if(soz[i] == samit[j]){
-                say1 = say1 +1
+                say1 = say1 + 1
             }
         }
     }
