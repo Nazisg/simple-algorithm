@@ -6,7 +6,6 @@ function f(y){
     for(i = 0;i < alp.length; i++){
         if(y[j] == alp[i]){
             sfr = sfr + alp[i+3]
-            
         }
     }
   }console.log(sfr)
