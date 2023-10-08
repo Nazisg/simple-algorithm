@@ -1,0 +1,13 @@
+// Arrayin icinde Axtaris edin.
+// Meselcun: F,uad  - yazan zaman console “Fuad”-i tapib cixarsin.
+// Meselcun: CO - yazan kimi consola Coders cixartsin.
+// Boyuk kicik herf ferqli olmasin
+
+var arr = ["Coders","Fuad","Ferid","Ayten","Sebine",
+"Ruslan","Murad","Aga","Ayaz","Shamxal","Mehemmed","Taleh"]
+var search = ("CO").toLowerCase()
+for(i=0;i<arr.length; i++){
+    if(arr[i].toLowerCase().includes(search)===true){
+        console.log(arr[i])
+    }
+}
