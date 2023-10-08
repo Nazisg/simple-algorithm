@@ -1,5 +1,5 @@
 // Arrayin icinde Axtaris edin.
-// Meselcun: F,uad  - yazan zaman console “Fuad”-i tapib cixarsin.
+// Meselcun: F,uad  - yazan zaman console â€œFuadâ€-i tapib cixarsin.
 // Meselcun: CO - yazan kimi consola Coders cixartsin.
 // Boyuk kicik herf ferqli olmasin
 
