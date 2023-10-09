@@ -1,11 +1,10 @@
-arr = [1.4,3.7,4.8,6.3,99.9] verilmiş bu list-dən 
-// 4.8-i necə silə bilərik?
+// arr = [1.4,3.7,4.8,6.3,99.9] verilmiş bu list-dən 4.8-i silin.
 
-// arr = [1.4,3.7,4.8,6.3,99.9]
-// new_arr = []
-// arr.forEach(element => {
-//     if(element!=4.8){
-//         new_arr.push(element)
-//     }
-// });
-// console.log(new_arr)
+ arr = [1.4,3.7,4.8,6.3,99.9]
+ new_arr = []
+ arr.forEach(element => {
+     if(element!=4.8){
+         new_arr.push(element)
+     }
+ });
+ console.log(new_arr)
