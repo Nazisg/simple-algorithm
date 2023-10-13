@@ -1,0 +1,15 @@
+// Deyək ki, bir string var, məsələn str = "Nazrin". Bunun içində tapın ki, hər hərfdən neçə dənədir(obyekt formatında console edin).
+// {N:2, a:1, z:1, r:2, i:1} və s. şəkildə.
+
+var str = "Nazrin";
+var obj = {};
+for (i of str) {
+  var herif_sayi = 0;
+  for (j of str) {
+    if (i == j) {
+      herif_sayi++;
+    }
+  }
+  obj[i] = herif_sayi;
+}
+console.log(obj);
