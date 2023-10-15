@@ -1,0 +1,13 @@
+// 13. İstifadəçi bir ədəd daxil etsin bu bu ədəddən 1-ə qədər olan
+// ədədlərin cəmini tapan rekursiv funksiya yazın.
+
+var number =+prompt("eded daxil edin")
+var sum = 0
+function recursive(a){
+    if(a>0){
+        sum+=a
+        recursive(a-1)
+    }
+}
+recursive(number)
+console.log(sum)
