@@ -5,4 +5,5 @@ let arr2 =[]
             arr2.push(arr[i])
           }
     }
+
 console.log(arr2)
