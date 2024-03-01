@@ -1,0 +1,19 @@
+let str = "1 -5 6";
+let digits = str.split(" ")
+let a = digits[0]
+let b = digits[1]
+let c = digits[2]
+let discriminant = b * b - 4 * a * c;
+
+if (discriminant < 0) {
+  console.log("No roots");
+} else if (discriminant === 0) {
+  let root = -b / (2 * a);
+  console.log("One root: " + root);
+} else {
+  const root1 = (-b - Math.sqrt(discriminant)) / (2 * a);
+  const root2 = (-b + Math.sqrt(discriminant)) / (2 * a);
+  console.log(
+    "Two roots: " + Math.min(root1, root2) + " " + Math.max(root1, root2)
+  );
+}
