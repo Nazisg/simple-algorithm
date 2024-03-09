@@ -1,6 +1,5 @@
 let str = "2 4 2 4";
 let digits = str.split(" ");
-
 let a = digits[0];
 let b = digits[1];
 let c = digits[2];
