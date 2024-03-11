@@ -1,0 +1,13 @@
+let a = prompt("eded daxil edin");
+let bolen = [];
+
+for (let i = 1; i <= a; i++) {
+  if (a % i === 0) {
+    bolen.push(i);
+  }
+}
+if (bolen.length > 2) {
+  console.log("murekkeb ededdir");
+} else {
+  console.log("sade ededdir");
+}
