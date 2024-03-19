@@ -6,5 +6,6 @@ function TwoWordName(fullName) {
       .join(".")
   );
 }
+
 TwoWordName("Sam Harris"); // S.H
 TwoWordName("patrick feeney");  // P.F
