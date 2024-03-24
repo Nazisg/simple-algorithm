@@ -5,6 +5,7 @@ function TwoWordName(fullName) {
       .map((name) => name.at(0).toUpperCase())
       .join(".")
   );
-}
+
+
 TwoWordName("Sam Harris"); // S.H
 TwoWordName("patrick feeney");  // P.F
