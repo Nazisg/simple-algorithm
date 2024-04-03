@@ -1,0 +1,50 @@
+#1--------------------------------------
+
+let x = 1
+y = x = typeof y
+console.log(y) // undefined
+
+#2---------------------------------------
+
+let x = "a"
+let y = "b"
+console.log(y + x + + x + x) // baNaNa
+
+#3--------------------------------------
+
+let x = true + true  // 1+1
+let y = x + false   // 2+0
+console.log(y) // 2
+
+#4---------------------------------------
+
+let x = 7
+let z = !!x && !!!x 
+console.log(z) // false
+
+#5--------------------------------------
+
+setTimeout(() => {console.log(1)}, 0);
+console.log(2) // 2 1
+
+#6---------------------------------------
+
+let x = false
+let y = 0
+let z = "0"
+console.log(x == y) // true
+console.log(x == z) // true
+
+#7---------------------------------------
+
+let x = [1, 2, 3]
+let [, , y] = x
+console.log(y) // 3
+
+#8--------------------------------------
+
+let arr = [1, 2, 3]
+arr.forEach(num => num * 2)
+console.log(arr)  // [1, 2, 3]
+
+
